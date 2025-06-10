@@ -3,6 +3,7 @@
     "name": "mirror",
     "slug": "mirror",
     "version": "1.0.0",
+    "scheme": "mirror",
 
     "web": {
       "favicon": "./assets/favicon.png"
