@@ -1,20 +1,21 @@
-import { View } from 'react-native';
-import { useLocalSearchParams } from 'expo-router';
-import { Text } from '@/components/ui/text';
+import { SafeAreaView } from 'react-native-safe-area-context'
+import '@/global.css'
+import { Text } from 'react-native'
 
-export default function HomeScreen() {
-  const { userName } = useLocalSearchParams<{ userName?: string }>();
-
+const App = () => {
   return (
-    <View className="flex-1 justify-center items-center px-8 bg-background">
-      <View className="items-center">
-        <Text className="text-3xl font-bold text-foreground mb-4">
-          Hello, {userName || 'User'}! 👋
+    <SafeAreaView className="flex-1 bg-background">
+      {/* The rest of your app components will go here */}
+      <SafeAreaView className="flex-1 items-center justify-center">
+        <Text className="text-2xl font-bold text-foreground">
+          Welcome to the App!
         </Text>
-        <Text className="text-lg text-muted-foreground text-center">
-          Welcome to your home screen. Explore the tabs to discover more features!
+        <Text className="text-lg text-muted-foreground">
+          This is a simple example of using SafeAreaView.
         </Text>
-      </View>
-    </View>
-  );
+      </SafeAreaView>
+    </SafeAreaView>
+  )
 }
+
+export default App
