@@ -55,6 +55,7 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="notes/[id]" options={{ headerShown: false }} />
+        <Stack.Screen name="mind-maps/[id]" options={{ headerShown: false }} />
       </Stack>
     </ThemeProvider>
   )

@@ -1,5 +1,5 @@
 import { Tabs } from 'expo-router'
-import { Home, Map, Notebook, Search, Settings2 } from 'lucide-react-native'
+import { Home, Map, Notebook, Settings2 } from 'lucide-react-native'
 import { useColorScheme } from '@/lib/useColorScheme'
 
 export default function TabLayout() {
