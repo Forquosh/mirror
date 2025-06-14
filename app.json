@@ -4,30 +4,27 @@
     "slug": "mirror",
     "version": "1.0.0",
     "scheme": "mirror",
-
     "web": {
       "favicon": "./assets/images/logo.png"
     },
-
     "experiments": {
       "tsconfigPaths": true
     },
-
     "plugins": [],
-
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
-
     "userInterfaceStyle": "light",
-
     "splash": {
       "image": "./assets/images/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.mirror"
     },
     "android": {
       "adaptiveIcon": {

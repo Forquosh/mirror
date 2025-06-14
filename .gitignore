@@ -23,3 +23,7 @@ android
 .metro-health-check*
 
 .vscode
+# Expo
+.expo
+dist/
+web-build/
